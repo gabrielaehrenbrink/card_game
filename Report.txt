@@ -1,0 +1,47 @@
+Card Game Simulator Report
+
+
+Overview
+The Card Game Simulator is designed to evaluate the probability and statistical outcomes of a card placement game using a standard 52-card deck. The simulation involves running a large number of games and recording the results to understand the success rate, average correct card positions, and other relevant statistics.
+Game rules can me found in the README file. 
+
+Simulation Details
+
+The simulation was run four times, producing the following results:
+
+First Run (100,000 Simulations)
+Total Games: 100,000
+Successful Games: 2,725
+Success Rate: 2.725%
+Average Correct Positions: 7.84913
+Percentage of games with exactly 12 correct positions: 7.262%
+Second Run (100,000 Simulations)
+Total Games: 100,000
+Successful Games: 2,689
+Success Rate: 2.689%
+Average Correct Positions: 7.84448
+Percentage of games with exactly 12 correct positions: 7.113%
+
+Third Run (100,000 Simulations)
+Total Games: 100,000
+Successful Games: 2,753
+Success Rate: 2.753%
+Average Correct Positions: 7.84089
+Percentage of games with exactly 12 correct positions: 7.265%
+
+Fourth Run (100,000 Simulations)
+Total Games: 100,000
+Successful Games: 2,794
+Success Rate: 2.794%
+Average Correct Positions: 7.87208
+Percentage of games with exactly 12 correct positions: 7.178%
+
+Statistical Analysis
+Success Rate: Across all runs, the success rate consistently remains around 2.7%, indicating the difficulty of achieving a completely successful game.
+Average Correct Positions: The average number of correctly placed cards per game is close to 7.85, suggesting that slightly more than half the positions are correctly matched in an average game.
+Percentage of Games with 12 Correct Positions: The percentage of games with exactly 12 correct positions is consistently around 7.2%, showing that near-successful games (with only one incorrect position) are more likely than completely successful games but are still relatively rare.
+Variability
+The slight differences between the runs, such as success rates and average correct positions, highlight the inherent variability due to the random nature of card shuffling and placement. Notably, the results from the 10,000 simulation run are consistent with the 100,000 simulation runs, indicating reliability in the simulation's outcome.
+
+Conclusion
+The Card Game Simulator provides insightful statistics about the card placement game's difficulty. The low success rate highlights the challenge of achieving a perfect game, while the average correct positions suggest that players generally can place about half the cards correctly. The percentage of near-successful games (with exactly 12 correct positions) indicates that while achieving near-perfection is more common than complete success, it remains a challenging feat. These results help in understanding the game's dynamics and the probabilities associated with different outcomes.
